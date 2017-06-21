@@ -6,10 +6,6 @@ import os.path as op
 import difflib
 from collections import defaultdict, OrderedDict
 
-#package_regex = re.compile('^[a-zA-Z0-9]*__[a-zA-Z0-9]*\.[a-zA-Z0-9]*$')
-
-#package_regex = re.compile('^[^__]__\..*$')
-
 def checkifone(string, char):
     return len(string.split(char)) == 2;
 
