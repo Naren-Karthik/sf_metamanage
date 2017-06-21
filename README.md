@@ -1,5 +1,5 @@
 # sf_metamanage
-Python based windows CLI tool for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
+Python based windows CLI tool for capturing &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
 
 Do you have multiple lower level sandboxes and each of its metadata is slipping away from every other sandbox due to one or all of the below reason
 - Incremental changes across sandboxes are not aligned due to multiple developers working on changes in different sandboxes
