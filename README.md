@@ -1,18 +1,19 @@
 # sfmetadatamanage
-Python code for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
+Python based CLI tool for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
 
-Using the CLI tool:
+***Prerequisites***
+To start using this CLI tool the below setup needs to be completed in your laptop or server used for code management. These steps are detailed in the [word document] (Python - Salesforce metadata retrieve & compare.docx) above.
+1. Installing Python
+2. Setting up Salesforce retrieve folder
+3. Setting up the code folder
+
+***Using the CLI tool:***
+
 So let’s assume you installed Python and you have created a folder named “salesforce_retreive” in C drive and placed the unzipped “src” folder and “code” folder inside this folder and completed all the setup steps in the word document attached above.
 
-Please note: The following 4 metadata components won’t be pulled as of yet as they follow a different storage/retrieval pattern in Salesforce.
-1.	Dashboard
-2.	Document
-3.	EmailTemplate
-4.	Report
+Step 1: Go to command prompt - (windows button + r) and `cmd`
 
-Step 1: Go to command prompt using (windows button + r) and entering `cmd`
-
-Step 2: Go to the “code” folder by typing 
+Step 2: Go to the “code” folder 
 
 `cd <Code folder path> and hit ENTER`
 
@@ -29,7 +30,7 @@ For the above setup let’s say you want to pull “test” environment, then it
 
 Please note: It will only pull the components which are provided through “use” parameter in the “component_list.txt” inside the reference folder.
 
-Step 3: Once it is done, the retrieve output will be saved in a folder name as today’s date inside in complete_pull folder which will be inside the folder you had created in step 1 of the “Setting up Salesforce retrieve folder” section
+Step 3: Once it is done, the retrieve output will be saved in a folder name as today’s date inside in complete_pull folder which will be inside the folder you had created in step 1 of the “Setting up Salesforce retrieve folder”
 
 For the above scenario it will be stored under
 
@@ -44,8 +45,15 @@ For the above setup let’s say you want to pull and compare between “test” 
 
 Please note: It will only pull & compare the components which are provided through “use” parameter in the “component_list.txt” inside the reference folder.
 
-Step 3: Once it is done, the retrieve and compare output will be saved in a folder name as today’s date inside in retrieve_compare folder which will be inside the folder you had created in step 1 of the “Setting up Salesforce retrieve folder” section
+Step 3: Once it is done, the retrieve and compare output will be saved in a folder name as today’s date inside in retrieve_compare folder which will be inside the folder you had created in step 1 of the “Setting up Salesforce retrieve folder”
 
 For the above scenario it will be stored under
 
 `C:\salesforce_retrieve\retrieve_compare`
+
+***Please note:***
+The following 4 metadata components won’t be pulled as of yet as they follow a different storage/retrieval pattern in Salesforce.
+1.	Dashboard
+2.	Document
+3.	EmailTemplate
+4.	Report
