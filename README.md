@@ -8,7 +8,7 @@ Do you have multiple lower level sandboxes and each of its metadata is slipping 
 
 Be it as a company using Salesforce or as a Salesforce project manager or developer or admin, you would have come across this scenario quite a few times.
 
-This python based tool is built to address that and even more in future as new features are rolled out. This tool is a built using Salesforce Metadata API & Force.com migration tool and this is completely free and open sourced under MIT license.
+This python based tool is built to address that and even more in future as new features are rolled out. This tool is built using Salesforce Metadata API & Force.com migration tool and this is completely free and open sourced under MIT license.
 
 ***With this tool you can***
 
@@ -21,7 +21,7 @@ This python based tool is built to address that and even more in future as new f
 ***Common uses***
 - A date stamped snapshot will allow you to have a last set of working metadata to revert back to in case of inadvertent changes
 - This tool also allows backing up of most commonly changing metadata types like ApexClass, ApexTrigger, ApexPages, ApexComponents, CustomObjects and Profiles selectively rather than the complete org which will have rarely changing metadata like Sites
-- Now you can find real-time comparison between different orgs which will help in making key decisions like should we refresh a lower sandbox with production metadata by providing you with exactly what is the additional metadata is available in lower sandbox which will be lost due to the refresh
+- Now you can find real-time comparison between different orgs which will help in making key decisions like whether we should refresh a lower sandbox with production metadata by providing you with exactly what additional metadata is available in lower sandbox which will be lost due to the refresh
 - Most importantly this comparison will help you in early detection and subsequent correction of metadata discrepancies between sandboxes
 - This will also help the other way around where you can use this information to decide what metadata from lower sandboxes should be promoted to higher sandbox or production
 
