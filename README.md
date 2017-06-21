@@ -18,7 +18,7 @@ For the above scenario it will be
 ## For complete pull of a single environment
 Step 2a: Type: python complete_pull_env.py <desired folder path> <environment_property_file_name> and hit ENTER
 For the above setup let’s say you want to pull “test” environment, then it will be 
-python complete_pull_env.py “C:\salesforce_retreive” test
+`python complete_pull_env.py “C:\salesforce_retreive” test`
 
 Please note: It will only pull the components which are provided through “use” parameter in the “component_list.txt” inside the reference folder.
 
