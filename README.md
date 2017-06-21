@@ -3,8 +3,8 @@ Python based windows CLI tool for creating &amp; managing Salesforce metadata sn
 
 Do you have multiple lower level sandboxes and each of its metadata is slipping away from every other sandbox due to one or all of the below reason
 - Incremental changes across sandboxes are not aligned due to multiple developers working on changes in different sandboxes
-- Direct defect fixes to higher sandoxes are not getting synced back to all of your lower sandboxes
-- Vendor team is building new features in sandboxes different from those being used by the internal dev team for security or IP reasons
+- Direct defect fixes to higher sandboxes are not getting synced back to all of your lower sandboxes
+- Vendor team is building new features in sandboxes different from those being used by the internal dev team for data security or IP reasons
 
 Be it as a company using Salesforce or as a Salesforce project manager or developer or admin, you would have come across this scenario quite a few times.
 
@@ -14,15 +14,16 @@ This python based tool is built to address that and even more in future as new f
 
 - Take "date stamped" snapshot of a specific org and back it up 
 - Take snapshot of specific metadata types like ApexClass, Profiles and many more from the org you want
-- Compare between 2 orgs and get a complete list of matches & discrepancies listed out in a easy to understand way
+- Compare between 2 orgs and get a complete list of matches & discrepancies listed out in an easy to understand way
 - You can even compare specific list of metadata types between 2 orgs
-- You can automate all this with just few lines of powershell scripts to run daily, weekly or based on required schedule
+- You can automate all this with just few lines of PowerShell scripts to run daily, weekly or based on required schedule
 
 ***Common uses***
-- A date stamped snapshot will allow you to have a last set of working metadata to revert back to in case of inadhverent changes
-- This tool also allows backing up of most commonly changing metadata types like ApexClass, ApexTrigger, ApexPages, ApexComponents, CustomObjects and Profiles can be selectively rather then the complete org which will have rarely changing metadata like Sites
-- Now you can find real-time comparison of different org which will help in making key decisions like should we refresh a lower sandbox with production metadata by providing you with exactly what is the additional metadata is available in lower sandbox which will be lost due to the refresh.
-- This will also help the other way around where you can use this information to decide what metadata which is additional in lower sandboxes should be promoted to higher sandbox or production.
+- A date stamped snapshot will allow you to have a last set of working metadata to revert back to in case of inadvertent changes
+- This tool also allows backing up of most commonly changing metadata types like ApexClass, ApexTrigger, ApexPages, ApexComponents, CustomObjects and Profiles selectively rather than the complete org which will have rarely changing metadata like Sites
+- Now you can find real-time comparison between different orgs which will help in making key decisions like should we refresh a lower sandbox with production metadata by providing you with exactly what is the additional metadata is available in lower sandbox which will be lost due to the refresh
+- Most importantly this comparison will help you in early detection and subsequent correction of metadata discrepancies between sandboxes
+- This will also help the other way around where you can use this information to decide what metadata from lower sandboxes should be promoted to higher sandbox or production
 
 ***Prerequisites***
 
@@ -31,7 +32,7 @@ To start using this CLI tool the below setup needs to be completed in your lapto
 2. Setting up Salesforce retrieve folder
 3. Setting up the code folder
 
-***Using the CLI tool:***
+***Using the CLI tool***
 
 So let’s assume you installed Python and you have created a folder named “salesforce_retreive” in C drive and placed the unzipped “src” folder and “code” folder inside this folder and completed all the setup steps in the word document attached above.
 
