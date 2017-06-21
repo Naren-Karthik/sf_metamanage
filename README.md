@@ -28,7 +28,6 @@ Step 3: Once it is done, the retrieve output will be saved in a folder name as t
 For the above scenario it will be stored under
 `C:\salesforce_retrieve\complete_pull`
 
-
 ## For complete pull & compare of two different environments
 Step 2a: Type: python compare_retrieve_envs.py <desired folder path> <source_env> <target_env>
 For the above setup let’s say you want to pull and compare between “test” and “dev” environments, then it will be 
@@ -39,4 +38,3 @@ Please note: It will only pull & compare the components which are provided throu
 Step 3: Once it is done, the retrieve and compare output will be saved in a folder name as today’s date inside in retrieve_compare folder which will be inside the folder you had created in step 1 of the “Setting up Salesforce retrieve folder” section
 For the above scenario it will be stored under
 `C:\salesforce_retrieve\retrieve_compare`
-
