@@ -11,7 +11,7 @@ Please note: The following 4 metadata components won’t be pulled as of yet as 
 4.	Report
 
 Step 1: Go to command prompt using (windows button + r) and entering cmd
-Step 2: Go to the “code” folder by typing: 
+Step 2: Go to the “code” folder by typing 
 'cd <Code folder path> and hit ENTER'
 For the above scenario it will be 
 `cd C:\salesforce_retreive\code`
