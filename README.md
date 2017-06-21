@@ -85,6 +85,7 @@ The following 4 metadata components won’t be pulled as of yet as they follow a
 
 
 # In-progress & Future work
+- Include support for new metadata types added in Summer'17
 - Include the folder structure based metadata
 - Add deploy functionality
 - Add Checkonly validation runs
