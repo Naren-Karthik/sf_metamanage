@@ -2,7 +2,7 @@
 Python based CLI tool for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
 
 ***Prerequisites***
-To start using this CLI tool the below setup needs to be completed in your laptop or server used for code management. These steps are detailed in the [word document] (docs/setup_instructions.docx) above.
+To start using this CLI tool the below setup needs to be completed in your laptop or server used for code management. These steps are detailed in the setup_instructions.docx in the [docs folder] (./docs) above.
 1. Installing Python
 2. Setting up Salesforce retrieve folder
 3. Setting up the code folder
