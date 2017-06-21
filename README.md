@@ -1,5 +1,28 @@
 # sfmetadatamanage
-Python based CLI tool for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
+Python based windows CLI tool for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
+
+Do you have multiple lower level sandboxes and each of its metadata is slipping away from every other sandbox due to one or all of the below reason
+- Incremental changes across sandboxes are not aligned due to multiple developers working on changes in different sandboxes
+- Direct defect fixes to higher sandoxes are not getting synced back to all of your lower sandboxes
+- Vendor team is building new features in sandboxes different from those being used by the internal dev team for security or IP reasons
+
+Be it as a company using Salesforce or as a Salesforce project manager or developer or admin, you would have come across this scenario quite a few times.
+
+This python based tool is built to address that and even more in future as new features are rolled out.
+
+***With this tool you can***
+
+- Take "date stamped" snapshot of a specific org and back it up 
+- Take snapshot of specific metadata types like ApexClass, Profiles and many more from the org you want
+- Compare between 2 orgs and get a complete list of matches & discrepancies listed out in a easy to understand way
+- You can even compare specific list of metadata types between 2 orgs
+- You can automate all this with just few lines of powershell scripts to run daily, weekly or based on required schedule
+
+***Common uses***
+- A date stamped snapshot will allow you to have a last set of working metadata to revert back to in case of inadhverent changes
+- This tool also allows backing up of most commonly changing metadata types like ApexClass, ApexTrigger, ApexPages, ApexComponents, CustomObjects and Profiles can be selectively rather then the complete org which will have rarely changing metadata like Sites
+- Now you can find real-time comparison of different org which will help in making key decisions like should we refresh a lower sandbox with production metadata by providing you with exactly what is the additional metadata is available in lower sandbox which will be lost due to the refresh.
+- This will also help the other way around where you can use this information to decide what metadata which is additional in lower sandboxes should be promoted to higher sandbox or production.
 
 ***Prerequisites***
 
