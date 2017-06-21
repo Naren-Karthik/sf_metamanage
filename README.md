@@ -1,4 +1,4 @@
-# sfmetadatamanage
+# sfmetadata_amaze
 Python based windows CLI tool for creating &amp; managing Salesforce metadata snapshot, environment comparison &amp; change tracking.
 
 Do you have multiple lower level sandboxes and each of its metadata is slipping away from every other sandbox due to one or all of the below reason
@@ -8,7 +8,7 @@ Do you have multiple lower level sandboxes and each of its metadata is slipping 
 
 Be it as a company using Salesforce or as a Salesforce project manager or developer or admin, you would have come across this scenario quite a few times.
 
-This python based tool is built to address that and even more in future as new features are rolled out.
+This python based tool is built to address that and even more in future as new features are rolled out. This tool is a built using Salesforce Metadata API & Force.com migration tool and this is completely free and open sourced under MIT license.
 
 ***With this tool you can***
 
@@ -82,3 +82,10 @@ The following 4 metadata components won’t be pulled as of yet as they follow a
 2.	Document
 3.	EmailTemplate
 4.	Report
+
+
+# In-progress & Future work
+- Include the folder structure based metadata
+- Add deploy functionality
+- Add Checkonly validation runs
+- Move to a complete Metadata API based tool, Force migration tool wont be required anymore
